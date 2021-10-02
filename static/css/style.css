@@ -6,6 +6,16 @@ body {
     font-family: 'Kosugi Maru', sans-serif;
 }
 
+h1 {
+    background: rgb(227, 241, 78);
+    background: linear-gradient(90deg, rgba(227, 241, 78, 1) 0%, rgba(238, 189, 96, 1) 100%);
+    padding: 10px;
+    margin: 0 30%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    color: rgb(37, 37, 37);
+}
+
 #btn {
     margin: 10px auto;
     display: block;
@@ -14,9 +24,11 @@ body {
     border-radius: 20px;
     font-family: 'Kosugi Maru', sans-serif;
     background-color: rgb(253, 255, 130);
+    color: rgb(37, 37, 37);
 }
 
 
 #money {
+    color: rgb(37, 37, 37);
     font-size: 50px;
 }
